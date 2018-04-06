@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bootstrap template" />
+    <meta name="keywords" content="Bootstrap, template, cms" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../css/foro.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.7.0/ckeditor.js"></script>
+</head>
+<body>
+  <header>
+    
+    <div class="navbar navbar-expand navbar-dark bg-dark box-shadow">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <h4>Sistema de Horarios</h4>
+        </a>
+        
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../dashboard.html">Horarios</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Foro</a>
+          </li>
+        </ul>
+
+        <a class="btn btn-primary rounded-0" style="margin-left: 10px;" href="preguntar.html">Preguntar</a>
+      </div>
+      
+    </div>
+  </header>
+<section id="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">     
+                <div class="panel panel-default">
+                    <div class="panel panel-default">
+                        <div class="panel-heading main-color-bg">
+                            <h3 class="panel-title">Preguntas</h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Usuario</th>
+                                    <th>Pregunta</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>juan@</td>
+                                    <td>Pregunta uno</td>
+                                    <td><a class="btn btn-default" href="preguntar.html">Responder</a></td>
+
+                                </tr>
+                                <tr>
+                                    <td>Rodolfo Anaya</td>
+                                    <td>rodolf</td>
+                                    <td><a class="btn btn-default" href="preguntar.html">Responder</a></td>                                    </tr>
+                                    <tr>
+                                        <td>Sandra Jimenez</td>
+                                        <td>Organizar cursos en comun</td>
+                                        <td><a class="btn btn-default" href="preguntar.html">Responder</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rosa Santillana</td>
+                                        <td>Pregunta 2</td>
+                                        <td><a class="btn btn-default" href="preguntar.html">Responder</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+        </footer>
+
+        <!-- MODALS -->
+
+        <div class="modal fade" id="addPage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Agregar página</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label>Título de la página</label>
+                                <input type="text" class="form-control" placeholder="Título de la página">
+                            </div>
+                            <div class="form-group">
+                                <label>Contenido de la página</label>
+                                <textarea name="editor1" class="form-control" placeholder="Contenido"></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Publicada
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>Meta tags</label>
+                                <input type="text" class="form-control" placeholder="Agrega algunos tags...">
+                            </div>
+                            <div class="form-group">
+                                <label>Meta Description</label>
+                                <input type="text" class="form-control" placeholder="Agrega la descripción">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            CKEDITOR.replace('editor1');
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+    </html>

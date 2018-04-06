@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Bootstrap template" />
+        <meta name="keywords" content="Bootstrap, template, cms" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Foro | Preguntar</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="../css/foro.css" rel="stylesheet" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.7.0/ckeditor.js"></script>
+    </head>
+    <body>
+        <header>
+          
+          <div class="navbar navbar-expand navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <h4>Sistema de Horarios</h4>
+              </a>
+              
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../dashboard.html">Horarios</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Foro</a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </header>
+
+
+
+        <section id="main">
+            <div class="container">
+                <div class="row">
+
+                       
+                            
+                    </div>
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading main-color-bg">
+                                <h3 class="panel-title">Preguntar</h3>
+                            </div>
+                            <div class="panel-body">
+                                 <form>
+                                    <div class="form-group">
+                                        <label>Título de la pregunta</label>
+                                        <input type="text" class="form-control" placeholder="Título de la pregunta">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Contenido de la pregunta</label>
+                                        <textarea name="editor1" class="form-control" placeholder="Contenido"></textarea>
+                                    </div>
+
+                                    <input type="submit" class="btn btn-default" value="Publicar" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            &copy; Los chicos que lloran
+        </footer>
+
+        <script>
+            CKEDITOR.replace('editor1');
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

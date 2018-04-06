@@ -1,0 +1,120 @@
+#accordion {
+  width: 100%;
+  background-color: rgb(158, 158, 158);
+  color: darkgray;
+}
+
+.card {
+  border: 0;
+}
+
+
+.box {
+  padding: 20px 40px;
+}
+
+.tools {
+  height: 100%;
+}
+
+#accordion .btn-link, .btn-link:hover, .btn-link:focus {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#accordion .card-header {
+  background: rgb(158, 158, 158);
+  padding: 0;
+}
+
+#accordion .card-body {
+  padding: 0;
+}
+
+#accordion .card-body .list-group .list-group-item {
+  cursor: pointer;
+}
+
+#accordion .card-body .list-group .list-group-item:hover {
+  box-shadow: 1px 1px 1px 1px #eee;
+}
+
+#accordion .card-body .list-group .list-group-item.selected {
+  background: black;
+}
+
+.cell {
+  position: relative;
+  word-break: break-word;
+  width: 16%;
+  color: #198400;
+}
+
+.cell a {
+  display: block;
+}
+
+.cell > .indicator {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.indicator.red {
+  background: red;
+}
+
+.indicator.yellow {
+  background: yellow;
+}
+
+.indicator.green {
+  background: green;
+}
+
+.hidden {
+  display: none;
+}
+
+.context-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+
+  padding: 20px;
+  width: 200%;
+  background: white;
+  border: solid 1px darkgray;
+  color: black;
+}
+
+.indicator-chooser {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 100;
+
+  padding: 20px;
+  background: white;
+  border: solid 1px darkgray;
+  color: black;
+}
