@@ -5,16 +5,16 @@ Falta agregarle los iconos a cada uno de los componentes no sabía que en Bootst
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Dashboard</title>
+  <title>Escritorio</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/dashboard.css">
 </head>
 
 <body>
 
   <header>
-    
     <div class="navbar navbar-expand navbar-dark bg-dark box-shadow">
       <div class="container d-flex justify-content-between">
         <a href="#" class="navbar-brand d-flex align-items-center">
@@ -35,126 +35,145 @@ Falta agregarle los iconos a cada uno de los componentes no sabía que en Bootst
           <button class="btn btn-primary rounded-0" type="submit" style="margin-left: 10px;">Buscar</button>
         </form>
       </div>
-      
     </div>
   </header>
 
-  <main role="main">
-
-
-    <div class="album py-5 bg-light">
-      
-      <div class="container">
-        
-        <button class="btn btn-success rounded-0">Nuevo horario </button>
-        <div class="btn-group float-right" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-secondary rounded-0">-</button>
-          <button type="button" class="btn btn-secondary rounded-0">+</button>
-          <button type="button" class="btn btn-secondary rounded-0">O</button>
-        </div><hr>
-        
-        <div class=row>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2 sidebar">
+        <ul class="nav flex-column">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Escritorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Materias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Espacios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Académicos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <main role="main">
+          <div class="album py-5 bg-light">
+            
+            <div class="container">
               
-              <div class="card-body">
-                <p class="card-text">Grupo 3892 <br> Esta seccion contiene informacion acerca de un grupo</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-primary" href="editar-horario.html">
-                      Ver
-                    </a>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                    <button type="button" class="btn btn-sm btn-outline-danger">x</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
+              <button class="btn btn-success rounded-0">Nuevo horario </button>
+              <div class="btn-group float-right" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary rounded-0">-</button>
+                <button type="button" class="btn btn-secondary rounded-0">+</button>
+                <button type="button" class="btn btn-secondary rounded-0">O</button>
+              </div><hr>
               
-              <div class="card-body">
-                <p class="card-text">Grupo 4000 <br> Esta seccion contiene informacion acerca de un grupo</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                    <button type="button" class="btn btn-sm btn-outline-danger">x</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              
-              <div class="card-body">
-                <p class="card-text">Grupo 1234 <br> Esta seccion contiene informacion acerca de un grupo</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                    <button type="button" class="btn btn-sm btn-outline-danger">x</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              
-              <div class="card-body">
-                <p class="card-text">Grupo 6372 <br> Esta seccion contiene informacion acerca de un grupo</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                    <button type="button" class="btn btn-sm btn-outline-danger">x</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              
-              <div class="card-body">
-                <p class="card-text">Grupo 0611 <br> Esta seccion contiene informacion acerca de un grupo</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                    <button type="button" class="btn btn-sm btn-outline-danger">x</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              
-              <div class="card-body">
-                <p class="card-text">Grupo 3892 <br> Esta seccion contiene informacion acerca de un grupo</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                    <button type="button" class="btn btn-sm btn-outline-danger">Eliminar</button>
-                    <button type="button" class="btn btn-sm btn-outline-danger">x</button>
+              <div class=row>
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
                     
+                    <div class="card-body">
+                      <p class="card-text">Grupo 3892 <br> Esta seccion contiene informacion acerca de un grupo</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a class="btn btn-sm btn-outline-primary" href="editar-horario.html">
+                            Ver
+                          </a>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger">x</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    
+                    <div class="card-body">
+                      <p class="card-text">Grupo 4000 <br> Esta seccion contiene informacion acerca de un grupo</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger">x</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    
+                    <div class="card-body">
+                      <p class="card-text">Grupo 1234 <br> Esta seccion contiene informacion acerca de un grupo</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger">x</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    
+                    <div class="card-body">
+                      <p class="card-text">Grupo 6372 <br> Esta seccion contiene informacion acerca de un grupo</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger">x</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    
+                    <div class="card-body">
+                      <p class="card-text">Grupo 0611 <br> Esta seccion contiene informacion acerca de un grupo</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger">x</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    
+                    <div class="card-body">
+                      <p class="card-text">Grupo 3892 <br> Esta seccion contiene informacion acerca de un grupo</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-primary">Ver</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger">Eliminar</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger">x</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
-          
-        </div>
+
+        </main>
       </div>
     </div>
-
-  </main>
+  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

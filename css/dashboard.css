@@ -1,0 +1,21 @@
+.sidebar .nav-item {
+  background: #343a40;
+  color: white;
+  padding: 5px 2px;
+}
+
+.sidebar .nav-item.active, .sidebar .nav-item.active:hover {
+  background: #454b51;
+}
+
+.sidebar .nav-item:hover {
+  background: black;
+}
+
+.sidebar .nav-item .nav-link {
+  color: white;
+}
+
+.sidebar {
+  padding-left: 0;
+}
