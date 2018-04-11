@@ -4,6 +4,7 @@
     <title>Sistema de Horarios</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="css/editar-horario.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,10 +27,1568 @@
       </div>
     </header>
     
-    <div class="container-fluid">
+    <div class="container-fluid invitado">
       <div class="row">
-        <div class="col">
-          <img src="Invitado.png" alt="" style="width: 100%"">
+        <div class="col-2">
+          <div class="bg-dark text-white">
+            <div class="card-header">
+              Invitado
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Carrera:</h6>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  LCC
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <h6 class="card-title">Ciclo:</h6>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  2018-1
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <div class="aceptar-btn">
+                <a href="#" class="btn btn-primary">Aceptar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary">Tronco comun</button>
+          <button type="button" class="btn btn-secondary">1 semestre</button>
+          <button type="button" class="btn btn-secondary">2 semestre</button>
+          <button type="button" class="btn btn-secondary">3 semestre</button>
+          <button type="button" class="btn btn-secondary">3 semestre</button>
+          <button type="button" class="btn btn-secondary">4 semestre</button>
+        </div>
+          <table class="table table-bordered">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>7:00</td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>8:00</td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>9:00</td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>10:00</td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>11:00</td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>12:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            M. G. V. D
+                          </a>
+                          Omar Xochihua
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            P. D. I.
+                          </a>
+                          José Fraga
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            P. D. I.
+                          </a>
+                          José Fraga
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>13:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            M. G. V. D
+                          </a>
+                          Omar Xochihua
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            P. D. I.
+                          </a>
+                          José Fraga
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            M. G. V. D
+                          </a>
+                          Omar Xochihua
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            P. D. I.
+                          </a>
+                          José Fraga
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>14:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            C. P.
+                          </a>
+                          Ariel Quezada
+                          <div class="indicator red selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            C. P.
+                          </a>
+                          Ariel Quezada
+                          <div class="indicator red selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Comp.
+                          </a>
+                          Everardo Gutierrez
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            M. G. V. D
+                          </a>
+                          Omar Xochihua
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            C. P.
+                          </a>
+                          Ariel Quezada
+                          <div class="indicator red selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>15:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            C. P.
+                          </a>
+                          Ariel Quezada
+                          <div class="indicator red selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            C. P.
+                          </a>
+                          Ariel Quezada
+                          <div class="indicator red selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Comp.
+                          </a>
+                          Everardo Gutierrez
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            M. G. V. D
+                          </a>
+                          Omar Xochihua
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            C. P.
+                          </a>
+                          Ariel Quezada
+                          <div class="indicator red selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>16:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Comp.
+                          </a>
+                          Everardo Gutierrez
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Reing. de Proc.
+                          </a>
+                          Victoria Meza
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Reing. de Proc.
+                          </a>
+                          Victoria Meza
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Comp.
+                          </a>
+                          Everardo Gutierrez
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Reing. de Proc.
+                          </a>
+                          Victoria Meza
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>17:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Comp.
+                          </a>
+                          Everardo Gutierrez
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+    
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Reing. de Proc.
+                          </a>
+                          Victoria Meza
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Reing. de Proc.
+                          </a>
+                          Victoria Meza
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Comp.
+                          </a>
+                          Everardo Gutierrez
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            Reing. de Proc.
+                          </a>
+                          Victoria Meza
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>18:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            S. D.
+                          </a>
+                          José Risk
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            S. D.
+                          </a>
+                          José Risk
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            S. D.
+                          </a>
+                          José Risk
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            P. D. I.
+                          </a>
+                          José Fraga
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>19:00</td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            S. D.
+                          </a>
+                          José Risk
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            S. D.
+                          </a>
+                          José Risk
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            S. D.
+                          </a>
+                          José Risk
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell">
+                          <a href="#" class="js-open-context-menu">
+                            P. D. I.
+                          </a>
+                          José Fraga
+                          <div class="indicator green selected"></div>
+                          <div class="indicator-chooser" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="indicator red"></div>
+                                  <div class="indicator yellow"></div>
+                                  <div class="indicator green"></div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="context-menu" style="display: none">
+                            <form>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Salón:</label>
+                                  <select class="form-control">
+                                    <option value="">D6</option>
+                                    <option value="">D7</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <label>Académico:</label>
+                                  <select class="form-control">
+                                    <option value="">Victoria Meza</option>
+                                    <option value="">Everardo Gutierrez</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>20:00</td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                      <tr>
+                        <td>21:00</td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                        <td class="cell"></td>
+                      </tr>
+                    </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -37,5 +1596,6 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/popper.js/dist/popper.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
